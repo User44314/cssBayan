@@ -1,13 +1,13 @@
 body {
-    align-content: center;
-    align-items: center;
-    background: white;
-    margin: 30;
-    padding: 25;
-    background-position: center;
-    max-width: 1920;
-    height: 1080;
-    font-weight: bold;
+  align-content: center;
+  align-items: center;
+  background: white;
+  margin: 30;
+  padding: 25;
+  background-position: center;
+  max-width: 1920;
+  height: 1080;
+  font-weight: bold;
 
 }
 
@@ -27,129 +27,143 @@ body {
     display: none;
 } */
 .hide1 {
-    display: none;
+  display: none;
 }
 
 .myDIV:hover+.hide1 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 
 }
 
 
 .hide2 {
-    display: none;
+  display: none;
 }
 
 .myDIV1:hover+.hide2 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 
 .hide3 {
-    display: none;
+  display: none;
 }
 
 .myDIV2:hover+.hide3 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .hide4 {
-    display: none;
+  display: none;
 }
 
 .myDIV3:hover+.hide4 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .hide5 {
-    display: none;
+  display: none;
 }
 
 .myDIV4:hover+.hide5 {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 
 
 /* text blue */
 span {
-    color: #000000;
-    font-size: 30px;
-    text-align: left
+  color: #000000;
+  font-size: 30px;
+  text-align: left
 }
 
 .item:hover {
-    color: #0307f3;
-    font-size: 30px;
-    text-align: left;
+  color: rgb(0 89 217);
+  font-size: 30px;
+  text-align: left;
 
 }
 
 .myDIV:after {
-    content: '\02716'; /* Unicode character for "plus" sign (x) */
-    font-size: 18px;
-    color: #000000;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .myDIV:hover:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+  content: '\02716';
+  /* Unicode character for "plus" sign (x) */
+  font-size: 18px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.myDIV:hover:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
 
 
-  .myDIV1:after {
-    content: '\02716'; /* Unicode character for "plus" sign (x) */
-    font-size: 18px;
-    color: #000000;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .myDIV1:hover:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+.myDIV1:after {
+  content: '\02716';
+  /* Unicode character for "plus" sign (x) */
+  font-size: 18px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.myDIV1:hover:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
 
 
-  .myDIV2:after {
-    content: '\02716'; /* Unicode character for "plus" sign (x) */
-    font-size: 18px;
-    color: #000000;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .myDIV2:hover:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+.myDIV2:after {
+  content: '\02716';
+  /* Unicode character for "plus" sign (x) */
+  font-size: 18px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.myDIV2:hover:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
 
 
-  .myDIV3:after {
-    content: '\02716'; /* Unicode character for "plus" sign (x) */
-    font-size: 18px;
-    color: #000000;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .myDIV3:hover:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+.myDIV3:after {
+  content: '\02716';
+  /* Unicode character for "plus" sign (x) */
+  font-size: 18px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.myDIV3:hover:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
 
 
-  .myDIV4:after {
-    content: '\02716'; /* Unicode character for "plus" sign (x) */
-    font-size: 18px;
-    color: #000000;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .myDIV4:hover:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+.myDIV4:after {
+  content: '\02716';
+  /* Unicode character for "plus" sign (x) */
+  font-size: 18px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+
+.myDIV4:hover:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+.collabpsible {
+  border-top: .5mm solid #758de7ab;
+}
